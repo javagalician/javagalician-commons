@@ -1,0 +1,69 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.javagalician</groupId>
+  <artifactId>javagalician-commons</artifactId>
+  <packaging>pom</packaging>
+  <version>1.0</version>
+  <name>javagalician-commons</name>
+  <url>http://www.javagalician.org</url>
+
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <organization>
+    <name>The JAVAGALICIAN team</name>
+    <url>http://www.javagalician.org</url>
+  </organization>
+  
+  <scm>
+    <url>http://javagalician.svn.sourceforge.net/viewvc/javagalician/</url>
+    <connection>scm:svn:http://javagalician.svn.sourceforge.net/svnroot/javagalician</connection>
+    <developerConnection>scm:svn:https://javagalician.svn.sourceforge.net/svnroot/javagalician</developerConnection>
+  </scm>
+  
+  <developers>
+    <developer>
+      <id>dfernandez</id>
+      <name>Daniel Fernandez</name>
+      <email>dfernandez AT users.sourceforge.net</email>
+      <roles>
+        <role>Project admin</role>
+      </roles>
+    </developer>
+  </developers>
+
+  <build>
+
+  </build>
+
+  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-project-info-reports-plugin</artifactId>
+        <reportSets>
+          <reportSet>
+            <reports>
+              <report>license</report>
+              <report>scm</report>
+            </reports>
+          </reportSet>
+        </reportSets>
+      </plugin>
+    </plugins>
+  </reporting>
+
+
+  <dependencies>
+    
+  </dependencies>
+
+</project>

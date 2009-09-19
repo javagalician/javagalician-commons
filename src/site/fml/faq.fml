@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<faqs title="Frequently Asked Questions">
+
+
+  <part id="aboutjavagalician">
+    <title>General questions</title>
+    
+    <faq id="is-javagalician-official">
+      <question>Is JAVAGALICIAN any kind of official project? Is it sponsored or endorsed by any public institution or private company?</question>
+      <answer>
+        <p>
+          No, it is not. JAVAGALICIAN is an independent open-source project, and it has no relation
+          at all with any institutions or companies of any kind.
+        </p>
+      </answer>
+    </faq>
+    
+    <faq id="standards">
+      <question>Which are the standards used for creating the localized texts?</question>
+      <answer>
+        <p>
+          JAVAGALICIAN has been made compliant with the latest revision of the official rules of
+          grammar, spelling and vocabulary promulgated by the Real Academia Galega
+          (Royal Galician Academy) as of 2009.
+        </p>
+        <p>
+          The following texts have been used as a reference:
+        </p>
+        <ul>
+          <li><em>Novo dicionario da lingua galega</em>. Ed. Obradoiro-Santillana, 2005.</li>
+          <li><em>Dicionario Galaxia de usos e dificultades da lingua galega</em>. Ed. Galaxia, 2004.</li>
+          <li><em>Dicionario Castel&#225;n-Galego da Real Academia Galega</em>. Real Academia Galega e Fundaci&#243;n Pedro Barri&#233; de la Maza, 2004.</li>
+        </ul>
+      </answer>
+    </faq>
+    
+    <faq id="support">
+      <question>Is there any support available?</question>
+      <answer>
+        <p>
+          No, there is not. But there is a user list in which you can ask your questions and
+          answer questions from other users.
+        </p>
+      </answer>
+    </faq>
+    
+  </part>
+  
+  <part id="usage">
+    <title>Usage</title>
+    
+    <faq id="install-each-JVM">
+      <question>Do I have to install JAVAGALICIAN in every JVM on which I am intending to run my localized application?</question>
+      <answer>
+        <p>
+          Yes, you have. JAVAGALICIAN is not an application dependency, but rather a <b>JVM extension</b>.
+          As such, you will have to install JAVAGALICIAN in every Java Virtual machine on which
+          your localized applications will run, including all environments (development, pre-production, production...)
+        </p>
+      </answer>
+    </faq>
+    
+    <faq id="install-once">
+      <question>Once I have it installed in my JVM, will it be available for all my apps?</question>
+      <answer>
+        <p>
+          Yes. Once installed in your JVM, the gl_ES locale will be available for all the Java applications
+          you run on that JVM, transparently (including any application servers which may run on top of it).
+        </p>
+      </answer>
+    </faq>
+    
+  </part>
+
+    
+</faqs>

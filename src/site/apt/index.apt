@@ -1,0 +1,109 @@
+  -------
+  Main
+  -------
+
+  <<JAVAGALICIAN 1.0 RELEASED!>> (September 19th, 2009). {{{download.html}[DOWNLOAD]}}
+
+  JAVAGALICIAN is an extension for the Java Virtual Machine which adds support for the
+  Galician locale (gl_ES). Some quick facts:
+  
+    * It adds the '<<gl_ES>>' locale to your Java Virtual Machine. This will allow you to 
+      format dates and numbers, order words and do all Java locale-specific actions in 
+      Galician language.
+    
+    * It requires <<Java SE version 6>> or higher. It will not work with Java 5.
+    
+    * It is open source and distributed under the <<Apache License 2.0>>, and it is 
+      absolutely free. Just download it and use it.
+    
+    * It is <<very easy to install>>: just drop a .jar file into one of your JVM's folders 
+      and you are done.
+      
+    * It is <<transparent for developers>>. No special actions need to be performed in order to 
+      use it in applications, no special objects, classes or dependencies: just use the gl_ES 
+      locale as you would with any others.
+
+
+The JAVAGALICIAN project
+
+  Java SE 6 (JDK 1.6.0) added to its API a hierachy of Service Provider Interfaces (SPIs) 
+  that enable the easy addition of localization-related features to the Java Virtual 
+  Machine. This SPIs extend the <<<java.util.spi.LocaleServiceProvider>>> class and cover the 
+  following features:
+
+*-----------------------------------------+--------------------------------------------------+------------------------------------------------+
+| <<Feature>>                             | <<SPI>>                                          | <<Localized JAVAGALICIAN examples>>            |
+*-----------------------------------------+--------------------------------------------------+------------------------------------------------+
+| Date formatting                         | <<<java.text.spi.DateFormatProvider>>>           | xoves 31 de decembro de 2009 23H59' CET        |
+*-----------------------------------------+--------------------------------------------------+------------------------------------------------+
+| Date format symbols                     | <<<java.text.spi.DateFormatSymbolsProvider>>>    | xaneiro, venres                                |
+*-----------------------------------------+--------------------------------------------------+------------------------------------------------+
+| Number formatting                       | <<<java.text.spi.NumberFormatProvider>>>         | 2.312.600,35, 2.312.600,35 \200                |
+*-----------------------------------------+--------------------------------------------------+------------------------------------------------+
+| Decimal format symbols                  | <<<java.text.spi.DecimalFormatSymbolsProvider>>> | 2.312.600,35                                   |
+*-----------------------------------------+--------------------------------------------------+------------------------------------------------+
+| Collation (text comparison and ordering)| <<<java.text.spi.CollatorProvider>>>             | \{at\363mico, \301tomo, at\363nito, \301tono\} |
+*-----------------------------------------+--------------------------------------------------+------------------------------------------------+
+| Break iteration                         | <<<java.text.spi.BreakIteratorProvider>>>        | \|O\|\341baco\|sit\372ase\|sobre\|o\|capitel\| |
+*-----------------------------------------+--------------------------------------------------+------------------------------------------------+
+| Locale names (country + language names) | <<<java.util.spi.LocaleNameProvider>>>           | Arxentina, Alema\361a, castel\341n             |
+*-----------------------------------------+--------------------------------------------------+------------------------------------------------+
+| Time Zone names                         | <<<java.util.spi.TimeZoneNameProvider>>>         | Hora de ver\341n de Europa Central             |
+*-----------------------------------------+--------------------------------------------------+------------------------------------------------+
+| Currency names                          | <<<java.util.spi.CurrencyNameProvider>>>         | euro, d\363lar                                 |
+*-----------------------------------------+--------------------------------------------------+------------------------------------------------+
+
+  ALL these localization features are covered by JAVAGALICIAN, so that it works as a 
+  complete solution to the lack of native Galician support in the JVM, <<making 'gl_ES' a fully 
+  supported locale in the Java Virtual Machine>>.
+
+
+Context
+
+* Galician language
+
+  <<Galician>> is a language spoken by more than 3 million people in the northwest of Spain, 
+  mostly in the Autonomous Region of Galicia. It is a romance language originated from 
+  Latin during the middle ages and very closely related to Portuguese, and it currently 
+  has the status of <<co-official in the Autonomous Region of Galicia>>, sharing this status 
+  with Castilian language (often known outside Spain as 'Spanish') and in equal rights 
+  with it within the region.
+
+  Galician is also the official language of the Government and official institutions of 
+  this Autonomous Region, it is taught in all Galician schools and used for teaching in 
+  a 50% distribution of subjects with Castilian. Several regional television channels and 
+  radio stations broadcast their contents exclusively in Galician, and several newspapers 
+  also use the language (both in bilingual and monolingual form).
+
+  Galician is studied and standardized by an official institution called Real Academia 
+  Galega (Royal Galician Academy), which promulgates norms of grammar, spelling and 
+  vocabulary, and works to promote the language.
+
+  You can read further about this topics at Wikipedia: 
+  [{{{http://en.wikipedia.org/wiki/Galicia_%28Spain%29}Galicia}}] 
+  [{{{http://en.wikipedia.org/wiki/Galician_language}Galician language}}] 
+  [{{{http://en.wikipedia.org/wiki/Real_Academia_Galega}Real Academia Galega}}]
+
+
+* Galician locale
+
+  The standard locale code for Galician language is <<'gl_ES'>>, in accordance with the 
+  ISO 639-1 specification for language codes.
+
+
+* Galician language in Java
+
+  Sun Microsystem's Java Virtual Machine has never included support for the Galician 
+  locale, although it was accepted in 2004 as 
+  {{{http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=5104387}RFE (Request For Enhancement) 5104387}} 
+  for JDK 1.4.2 and has been a hot topic ever since.
+
+  For all this time, Java software development companies in Galicia and elsewhere working 
+  for the Galician Government or institutions, or simply focusing their software products 
+  on Galician speakers, had to develop their own solutions (often incomplete or 
+  non-standards-compliant) to work around the lack of native support for Galician 
+  in the Java Virtual Machine.
+
+
+
+  
