@@ -45,32 +45,6 @@
     </faq>
     
   </part>
-  
-  <part id="usage">
-    <title>Usage</title>
-    
-    <faq id="install-each-JVM">
-      <question>Do I have to install JAVAGALICIAN in every JVM on which I am intending to run my localized application?</question>
-      <answer>
-        <p>
-          Yes, you have. JAVAGALICIAN is not an application dependency, but rather a <b>JVM extension</b>.
-          As such, you will have to install JAVAGALICIAN in every Java Virtual machine on which
-          your localized applications will run, including all environments (development, pre-production, production...)
-        </p>
-      </answer>
-    </faq>
-    
-    <faq id="install-once">
-      <question>Once I have it installed in my JVM, will it be available for all my apps?</question>
-      <answer>
-        <p>
-          Yes. Once installed in your JVM, the gl_ES locale will be available for all the Java applications
-          you run on that JVM, transparently (including any application servers which may run on top of it).
-        </p>
-      </answer>
-    </faq>
-    
-  </part>
 
     
 </faqs>
