@@ -16,8 +16,7 @@
     * It is open source and distributed under the <<Apache License 2.0>>, and it is 
       absolutely free. Just download it and use it.
     
-    * It is <<very easy to install>>: just drop a .jar file into one of your JVM's folders 
-      and you are done.
+    * It is <<very easy to install.>> Check the {{{install.html}installation instructions}}.
       
     * It is <<transparent for developers>>. No special actions need to be performed in order to 
       use it in applications, no special objects, classes or dependencies: just use the gl_ES 
