@@ -89,14 +89,14 @@ $ java -jar javagalician-java6-check-{version}.jar
 	  > Checking currency format: [23.124.213,46 €]  [OK]
 	---
 	Checking collation...
-	  > Checking word order: [at\363mico, \301tomo, at\363nito, \301tono]  [OK]
+	  > Checking word order: [atómico, Átomo, atónito, Átono]  [OK]
 	---
 	Checking locale naming...
 	  > Checking country names: [Arxentina, Alemaña, Noruega]  [OK]
-	  > Checking language names: [castel\341n, alem\341n, noruegu\351s]  [OK]
+	  > Checking language names: [castelán, alemán, noruegués]  [OK]
 	---
 	Checking Time Zone naming...
-	  > Checking timezone names: [Hora de ver\341n de Europa Central]  [OK]
+	  > Checking timezone names: [Hora de verán de Europa Central]  [OK]
 	
 	----------------------------------
 	 Checking: gl_ES
@@ -113,14 +113,14 @@ $ java -jar javagalician-java6-check-{version}.jar
 	  > Checking currency format: [23.124.213,46 €]  [OK]
 	---
 	Checking collation...
-	  > Checking word order: [at\363mico, \301tomo, at\363nito, \301tono]  [OK]
+	  > Checking word order: [atómico, Átomo, atónito, Átono]  [OK]
 	---
 	Checking locale naming...
 	  > Checking country names: [Arxentina, Alemaña, Noruega]  [OK]
-	  > Checking language names: [castel\341n, alem\341n, noruegu\351s]  [OK]
+	  > Checking language names: [castelán, alemán, noruegués]  [OK]
 	---
 	Checking Time Zone naming...
-	  > Checking timezone names: [Hora de ver\341n de Europa Central]  [OK]
+	  > Checking timezone names: [Hora de verán de Europa Central]  [OK]
 	
 	
 	---------------------------------------------------
