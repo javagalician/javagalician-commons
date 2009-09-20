@@ -51,7 +51,7 @@ The JAVAGALICIAN project
 *-----------------------------------------+--------------------------------------------------+------------------------------------------------+
 | Time Zone names                         | <<<java.util.spi.TimeZoneNameProvider>>>         | Hora de ver\341n de Europa Central             |
 *-----------------------------------------+--------------------------------------------------+------------------------------------------------+
-| Currency names                          | <<<java.util.spi.CurrencyNameProvider>>>         | euro, d\363lar                                 |
+| Currency symbols                        | <<<java.util.spi.CurrencyNameProvider>>>         | EUR,USD                                        |
 *-----------------------------------------+--------------------------------------------------+------------------------------------------------+
 
   ALL these localization features are covered by JAVAGALICIAN, so that it works as a 
