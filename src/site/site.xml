@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<project name="JAVAGALICIAN: Java Galician Locale (gl_ES) Support">
+<project name="JAVAGALICIAN: Java support for the Galician (gl, gl_ES) locales">
 
 
   <bannerLeft>
-    <name>JAVAGALICIAN: Java Galician Locale (gl_ES) Support</name>
+    <name>JAVAGALICIAN: Java support for the Galician (gl, gl_ES) locales</name>
     <src>images/javagalician_logo.png</src>
     <href>http://www.javagalician.org/</href>
   </bannerLeft>

@@ -2,12 +2,12 @@
   Main
   -------
 
-  <<JAVAGALICIAN 1.0 RELEASED!>> (September 19th, 2009). {{{download.html}[DOWNLOAD]}}
+  <<JAVAGALICIAN 1.0 RELEASED!>> (September 20th, 2009). {{{download.html}[DOWNLOAD]}}
 
   JAVAGALICIAN is an extension for the Java Virtual Machine which adds support for the
-  Galician locale (gl_ES). Some quick facts:
+  Galician locales (gl, gl_ES). Some quick facts:
   
-    * It adds the '<<gl_ES>>' locale to your Java Virtual Machine. This will allow you to 
+    * It adds the '<<gl>>' and '<<gl_ES>>' locales to your Java Virtual Machine. This will allow you to 
       format dates and numbers, order words and do all Java locale-specific actions in 
       Galician language.
     
@@ -19,8 +19,8 @@
     * It is <<very easy to install.>> Check the {{{install.html}installation instructions}}.
       
     * It is <<transparent for developers>>. No special actions need to be performed in order to 
-      use it in applications, no special objects, classes or dependencies: just use the gl_ES 
-      locale as you would with any others.
+      use it in applications, no special objects, classes or dependencies: just use the Galician 
+      locales as you would with any others.
 
 
 The JAVAGALICIAN project
@@ -53,8 +53,8 @@ The JAVAGALICIAN project
 *-----------------------------------------+--------------------------------------------------+------------------------------------------------+
 
   ALL these localization features are covered by JAVAGALICIAN, so that it works as a 
-  complete solution to the lack of native Galician support in the JVM, <<making 'gl_ES' a fully 
-  supported locale in the Java Virtual Machine>>.
+  complete solution to the lack of native Galician support in the JVM, <<making 'gl' and 
+  'gl_ES' fully supported locales in the Java Virtual Machine>>.
 
 
 Context
@@ -64,7 +64,8 @@ Context
   <<Galician>> is a language spoken by more than 3 million people in the northwest of Spain, 
   mostly in the Autonomous Region of Galicia. It is a romance language originated from 
   Latin during the middle ages and very closely related to Portuguese, and it currently 
-  has the status of <<co-official in the Autonomous Region of Galicia>>, sharing this status 
+  has the status of <<co-official in the Autonomous Region of Galicia>> as recognized
+  in the Spanish Constitution, sharing this status 
   with Castilian language (often known outside Spain as 'Spanish') and in equal rights 
   with it within the region.
 
@@ -86,8 +87,9 @@ Context
 
 * Galician locale
 
-  The standard locale code for Galician language is <<'gl_ES'>>, in accordance with the 
-  ISO 639-1 specification for language codes.
+  The standard language code for Galician language is <<'gl'>>, in accordance with the 
+  ISO 639-1 specification for language codes. Thus, Galician locales are 'gl' for
+  language-only locale and 'gl_ES' for language+country locale.
 
 
 * Galician language in Java
