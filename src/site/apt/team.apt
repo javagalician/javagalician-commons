@@ -7,10 +7,10 @@
 Development Team
 
   Do never email the authors directly on the usage of JAVAGALICIAN, use the users
-  list instead. <<Usage-related questions will not be answered>>.  
+  list instead. <<Emails with usage-related questions will not be answered>>.  
 
-*-----------+--------------------------------+---------------------+--------------------------------------+----------------------------------+
-| <<ID>>    | <<Name>>                       | <<Location>>        | <<Email>>                            | <<Role>>                         |
-*-----------+--------------------------------+---------------------+--------------------------------------+----------------------------------+
-|dfernandez |Daniel Fern\341ndez             | Spain               | dfernandez AT users.sourceforge.net  | Lead Developer (Project founder) |
-*-----------+--------------------------------+---------------------+--------------------------------------+----------------------------------+
+*-----------+---------------------+--------------------------------------+----------------------------------+
+| <<ID>>    | <<Location>>        | <<Email>>                            | <<Role>>                         |
+*-----------+---------------------+--------------------------------------+----------------------------------+
+|dfernandez | Spain               | dfernandez AT users.sourceforge.net  | Lead Developer (Project founder) |
+*-----------+---------------------+--------------------------------------+----------------------------------+

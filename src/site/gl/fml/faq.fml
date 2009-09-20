@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<faqs title="Preguntas Frecuentes">
+
+
+  <part id="aboutjavagalician">
+    <title>Preguntas xerais</title>
+    
+    <faq id="is-javagalician-official">
+      <question>&#201; JAVAGALICIAN alg&#250;n tipo de proxecto oficial? Est&#225; patrocinado ou apoiado por algunha instituci&#243;n p&#250;blica ou compañ&#237;a privada?</question>
+      <answer>
+        <p>
+          Non. JAVAGALICIAN &#233; un proxecto de c&#243;digo aberto completamente independente,
+          e non ten relaci&#243;n con instituci&#243;ns oficiais ou compañ&#237;as privadas de ning&#250;n tipo. 
+        </p>
+      </answer>
+    </faq>
+    
+    <faq id="standards">
+      <question>Qu&#233; normativas foron usadas para crear os textos localizados?</question>
+      <answer>
+        <p>
+          JAVAGALICIAN adheriuse &#225; &#250;ltima revisi&#243;n das normas oficiais de gram&#225;tica,
+          ortograf&#237;a e vocabulario promulgadas pola Real Academia Galega, en vigor en 2009.
+        </p>
+        <p>
+          Os seguintes textos foron utilizados como referencia:
+        </p>
+        <ul>
+          <li><em>Novo dicionario da lingua galega</em>. Ed. Obradoiro-Santillana, 2005.</li>
+          <li><em>Dicionario Galaxia de usos e dificultades da lingua galega</em>. Ed. Galaxia, 2004.</li>
+          <li><em>Dicionario Castel&#225;n-Galego da Real Academia Galega</em>. Real Academia Galega e Fundaci&#243;n Pedro Barri&#233; de la Maza, 2004.</li>
+        </ul>
+      </answer>
+    </faq>
+    
+    <faq id="support">
+      <question>Est&#225; dispoñible alg&#250;n tipo de soporte?</question>
+      <answer>
+        <p>
+          Non. Pero existe unha <a href="userlist.html">lista de correo / foro de usuarios</a> na que podes
+          facer as t&#250;as preguntas ou responder outras de outros usuarios.
+        </p>
+      </answer>
+    </faq>
+    
+  </part>
+
+    
+</faqs>

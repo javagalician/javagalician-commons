@@ -1,0 +1,113 @@
+  -------
+  Principal
+  -------
+
+  {{{../index.html}<<[IN ENGLISH]>>}} {{{../es/index.html}<<[EN CASTELLANO]>>}} 
+
+  <<JAVAGALICIAN 1.0 PUBLICADO!>> (20 setembro 2009). {{{download.html}[DESCARGAR]}}
+
+  JAVAGALICIAN \351 unha extensi\363n para a m\341quina virtual Java (JVM) que engade soporte para as
+  localizaci\363ns galegas (gl, gl_ES). Brevemente:
+  
+    * Engade as localizaci\363ns '<<gl>>' e '<<gl_ES>>' \341 t\372a m\341quina virtual Java. Isto permitirache 
+      dar formato a datas e n\372meros, ordenar palabras e realizar calquera outra acci\363n dependente da
+      localizaci\363n en Java usando como idioma o galego. 
+    
+    * Require <<Java SE versi\363n 6>> ou posterior. Non funciona con Java 5.
+    
+    * \311 un proxecto de c\363digo aberto e distribu\355do baixo a licenza <<Apache License 2.0>>, e \351 
+      absolutamente gratu\355to. Simplemente desc\341rgao e \372sao.
+    
+    * \311 <<moi doado de instalar.>> B\363talle unha ollada \341s {{{install.html}instrucci\363ns de instalaci\363n}}.
+      
+    * \311 <<transparente para os desenvolvedores>>. Para usar estas localizaci\363ns nunha aplicaci\363n non \351 necesario
+      realizar ningunha acci\363n especial, nin usar obxectos, clases ou dependencias especiais: simplemente
+      usa as localizaci\363ns galegas como o far\355as con outras calquera.
+
+
+O proxecto JAVAGALICIAN
+
+  Java SE 6 (JDK 1.6.0) engadiu \341 s\372a API unha xerarqu\355a de interfaces de provisi\363n de servizos
+  (<Service Provider Interfaces>, SPIs) 
+  que permiten unha sinxela adici\363n de capacidades de localizaci\363n \341 m\341quina virtual Java.
+  Estes SPIs extenden \341 clase <<<java.util.spi.LocaleServiceProvider>>> e cubren as 
+  seguintes funcionalidades:
+
+*-----------------------------------------+--------------------------------------------------+------------------------------------------------+
+| <<Funcionalidade>>                      | <<SPI>>                                          | <<Exemplo localizado por JAVAGALICIAN>>        |
+*-----------------------------------------+--------------------------------------------------+------------------------------------------------+
+| Formato de datas                        | <<<java.text.spi.DateFormatProvider>>>           | xoves 31 de decembro de 2009 23H59' CET        |
+*-----------------------------------------+--------------------------------------------------+------------------------------------------------+
+| S\355mbolos de formato de datas            | <<<java.text.spi.DateFormatSymbolsProvider>>>    | xaneiro, venres                                |
+*-----------------------------------------+--------------------------------------------------+------------------------------------------------+
+| Formato de n\372meros                      | <<<java.text.spi.NumberFormatProvider>>>         | 2.312.600,35, 2.312.600,35 \200                |
+*-----------------------------------------+--------------------------------------------------+------------------------------------------------+
+| S\355mbolos de formato de n\372meros          | <<<java.text.spi.DecimalFormatSymbolsProvider>>> | 2.312.600,35                                   |
+*-----------------------------------------+--------------------------------------------------+------------------------------------------------+
+| Ordenaci\363n e comparaci\363n de textos      | <<<java.text.spi.CollatorProvider>>>             | \{at\363mico, \301tomo, at\363nito, \301tono\} |
+*-----------------------------------------+--------------------------------------------------+------------------------------------------------+
+| Segmentaci\363n de textos                  | <<<java.text.spi.BreakIteratorProvider>>>        | \|O\|\341baco\|sit\372ase\|sobre\|o\|capitel\| |
+*-----------------------------------------+--------------------------------------------------+------------------------------------------------+
+| Nomes de localizaci\363ns (pa\355ses + idiomas) | <<<java.util.spi.LocaleNameProvider>>>           | Arxentina, Alema\361a, castel\341n             |
+*-----------------------------------------+--------------------------------------------------+------------------------------------------------+
+| Nomes de zonas horarias                 | <<<java.util.spi.TimeZoneNameProvider>>>         | Hora de ver\341n de Europa Central             |
+*-----------------------------------------+--------------------------------------------------+------------------------------------------------+
+| Nomes de moedas                         | <<<java.util.spi.CurrencyNameProvider>>>         | euro, d\363lar                                 |
+*-----------------------------------------+--------------------------------------------------+------------------------------------------------+
+
+  TODAS estas funcionalidades de localizaci\363n est\341n cubertas por JAVAGALICIAN, de modo que
+  funcione como unha soluci\363n completa \341 falla de soporte nativo para galego na JVM,
+  <<convertindo 'gl' e 'gl_ES' en localizaci\363ns completamente soportadas na m\341quina
+  virtual Java>>.
+
+
+Contexto
+
+* A lingua galega
+
+  O <<galego>> \351 unha lingua falada por m\341is de 3 mill\363ns de persoas no noroeste de España,
+  principalmente na Comunidade Aut\363noma de Galicia. \311 unha lingua romance orixinada a partir do
+  lat\355n durante a idade media e moi pr\363ximamente emparentada co portugu\351s, e actualmente
+  ten o estatus de <<cooficial na Comunidade Aut\363noma de Galicia>> tal e como \351 recoñecido
+  na Constituci\363n Española, compartindo este estatus coa lingua castel\341 e en igualdade 
+  de dereitos con ela dentro da Comunidade. 
+
+  O galego \351 ademais o idioma oficial do Goberno e as instituci\363ns oficiais desta Comunidade
+  Aut\363noma, \351 ensinado en t\363dalas escolas de Galicia e usado para o ensino nunha distribuci\363n
+  de materias do 50% co castel\341n. Varias canles de televisi\363n rexionais e estaci\363ns de radio
+  emiten os seus contidos exclusivamente en galego, e varios peri\363dicos usan tam\351n esta lingua
+  (tanto en forma monoling\374e coma biling\374e).
+
+  O galego \351 estudiado e estandarizado por unha instituci\363n oficial denominada Real
+  Academia Galega, que promulga normas de gram\341tica, ortograf\355a e vocabulario, e traballa
+  para a promoci\363n da lingua.
+
+  Podes ler m\341is sobre estes temas na Wikipedia: 
+  [{{{http://gl.wikipedia.org/wiki/Galicia}Galicia}}] 
+  [{{{http://gl.wikipedia.org/wiki/Lingua_galega}Lingua Galega}}] 
+  [{{{http://gl.wikipedia.org/wiki/Real_Academia_Galega}Real Academia Galega}}]
+
+
+* Localizaci\363n galega
+
+  O c\363digo de idioma est\341ndar para o galego \351 <<'gl'>>, de acordo co establecido na
+  especificaci\363n ISO 639-1 para c\363digos de idiomas. Polo tanto as localizaci\363ns galegas
+  son 'gl' para a versi\363n sen pa\355s e 'gl_ES' para a versi\363n con pa\355s. 
+
+
+* A lingua galega en Java
+
+  A m\341quina virtual Java de Sun Microsystems nunca inclu\355u soporte para as localizaci\363ns
+  galegas, a\355nda que estas foron aceptadas en 2004 como 
+  {{{http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=5104387}RFE (Request For Enhancement/Petici\363n de Mellora) 5104387}} 
+  para o JDK 1.4.2, e v\351n sendo un importante tema de discusi\363n dende ent\363n.
+
+  Durante todo este tempo, as empresas de desenvolvemento de software Java en Galicia ou en
+  calquera outro lugar que traballasen para o Goberno ou instituci\363ns galegas, ou que simplemente
+  orientasen os seus produtos de software ao mercado galego-falante, tiveron que desenvolver
+  as s\372as propias soluci\363ns (a mi\372do incompletas ou non adheridas a est\341ndares) para
+  paliar a falla de soporte nativo para a lingua galega na m\341quina virtual Java.
+
+
+
+  

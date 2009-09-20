@@ -1,57 +1,59 @@
   -------
-  Install
+  Instalaci\363n
   -------
 
-Installing JAVAGALICIAN
+Instalaci\363n de JAVAGALICIAN
 
-  <<REQUIREMENTS>>: Java SE 6 or higher.
+  <<REQUISITOS>>: Java SE 6 \363 posterior.
 
-* 1. Checking the status of your current VM's Galician localization
+* 1. Comprobaci\363n del estado actual de las localizaciones gallegas
 
-  Once you have downloaded the JAVAGALICIAN distribution zip file and
-  uncompressed it, cd into the distribution directory where the two
-  jar files (javagalician and javagalician-check) are and execute the
-  checks:
+  Una vez hayas descargado el zip de la distribuci\363n de JAVAGALICIAN y
+  lo hayas descomprimido, accede al directorio de la distribuci\363n donde
+  se encuentran los dos ficheros .jar (javagalician y javagalician-check)
+  y ejecuta las comprobaciones:
 
 ---
 $ java -jar javagalician-java6-check-{version}.jar
 ---
 
-  This will tell you the current status of your VM regarding
-  Galician localization. Normally, it will tell you that neither the
-  'gl' nor the 'gl_ES' locales are available.
+  Esto te informar\341 del estado actual de tu m\341quina virtual en lo referente
+  a las localizaciones gallegas. Normalmente, te informar\341 de que ni la
+  localizaci\363n 'gl' ni la 'gl_ES' est\341n disponibles.
 
 
-* 2. Installing
+* 2. Instalaci\363n
 
 
-** 2.1. Installing permanently into your JVM
+** 2.1. Instalaci\363n permanente en la m\341quina virtual
 
-  For installing JAVAGALICIAN, just copy the <<javagalician-java6-\{version\}.jar>> 
-  file into your Java virtual machine's extension folder:
+  Para instalar JAVAGALICIAN, simplemente copia el fichero 
+  <<javagalician-java6-\{version\}.jar>> en el directorio de extensiones de tu
+  m\341quina virtual Java:
 
-    * For a <<Sun Java JDK>>: <<<$JAVA_HOME/jre/lib/ext>>>
+    * Para una <<Sun Java JDK>>: <<<$JAVA_HOME/jre/lib/ext>>>
   
-    * For a <<Sun Java JRE>>: <<<$JAVA_HOME/lib/ext>>>
+    * Para una <<Sun Java JRE>>: <<<$JAVA_HOME/lib/ext>>>
     
-    * For an <<Apple Java JDK/JRE in Mac OS X>>: <<</Library/Java/Extensions>>>
+    * Para un <<Apple Java JDK/JRE en Mac OS X>>: <<</Library/Java/Extensions>>>
 
 
-** 2.2. Specifying as parameter on VM start
+** 2.2. Como par\341metro de la m\341quina virtual
 
-  If you prefer not to install the JAVAGALICIAN file into your VM's folder, you
-  can copy it into any other folder and specify it as a VM parameter:
+  Si prefieres no instalar el .jar de JAVAGALICIAN directamente en un directorio
+  de tu m\341quina virtual, puedes copiarlo a cualquier otro directorio y especificar
+  este directorio como un par\341metro de la m\341quina virtual durante su arranque:
 
 ---
   $ java -Djava.ext.dirs=$MY_EXTENSIONS_DIR ...
 ---
 
 
-* 3. After-installation checks
+* 3. Comprobaciones posteriores a la instalaci\363n
 
-  
-  After installing, execute the checks again, as explained above. Everything should be OK and you
-  should receive output similar to this:
+
+  Tras la instalaci\363n, ejecuta de nuevo las comprobaciones como se explica arriba. Todo deber\355a
+  estar correcto y deber\355as obtener una salida similar a \351sta:  
   
 ---
 	==================================
