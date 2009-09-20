@@ -25,7 +25,7 @@
       <item name="Main" href="index.html" />
       <item name="Download" href="download.html" />
       <item name="Install" href="install.html" />
-      <item name="User List" href="userlist.html" />
+      <item name="User Forum/List" href="userlist.html" />
       <item name="Sourceforge.net Project Page" href="http://www.sourceforge.net/projects/javagalician" />
     </links>
 
@@ -33,7 +33,7 @@
       <item name="· Main" href="index.html"/>
       <item name="· Download" href="download.html"/>
       <item name="· Install" href="install.html"/>
-      <item name="· User List" href="userlist.html"/>
+      <item name="· User Forum/List" href="userlist.html"/>
       <item name="· FAQ" href="faq.html" />
       <item name="· Source Repository" href="source-repository.html" />
       <item name="· License" href="license.html"/>
