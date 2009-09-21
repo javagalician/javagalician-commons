@@ -27,6 +27,27 @@
 
 The JAVAGALICIAN project
 
+* The problem
+
+  Take this code, which should output a date formatted in Galician language...
+
+---
+    final Locale glLocale = new Locale("gl","ES");        // language = Galician, country = Spain
+    final String myDateStr = DateFormat.getDateInstance(DateFormat.FULL, glLocale).format(myDate);
+    System.out.println(myDateStr);
+---
+
+  ...but have a look at its output:
+  
+---
+Monday, September 21, 2009
+---
+
+  That's not Galician! And this happens because, although we have specified a 'gl_ES' locale to be used, this
+  locale does not exist in the standard Java VM... and so what we get is a standard English format.
+  
+* The solution
+
   Java SE 6 (JDK 1.6.0) added to its API a hierachy of Service Provider Interfaces (SPIs) 
   that enable the easy addition of localization-related features to the Java Virtual 
   Machine. This SPIs extend the <<<java.util.spi.LocaleServiceProvider>>> class and cover the 
@@ -57,6 +78,12 @@ The JAVAGALICIAN project
   ALL these localization features are covered by JAVAGALICIAN, so that it works as a 
   complete solution to the lack of native Galician support in the JVM, <<making 'gl' and 
   'gl_ES' fully supported locales in the Java Virtual Machine>>.
+  
+  As an example, with JAVAGALICIAN installed, the same fragment of code we saw above would output:
+  
+---
+luns 21 de setembro de 2009
+---
 
 
 Context

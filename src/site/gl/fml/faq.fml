@@ -6,11 +6,11 @@
     <title>Preguntas xerais</title>
     
     <faq id="is-javagalician-official">
-      <question>&#201; JAVAGALICIAN alg&#250;n tipo de proxecto oficial? Est&#225; patrocinado ou apoiado por algunha instituci&#243;n p&#250;blica ou compañ&#237;a privada?</question>
+      <question>&#201; JAVAGALICIAN alg&#250;n tipo de proxecto oficial? Est&#225; patrocinado ou apoiado por algunha instituci&#243;n p&#250;blica ou compa&#241;&#237;a privada?</question>
       <answer>
         <p>
           Non. JAVAGALICIAN &#233; un proxecto de c&#243;digo aberto completamente independente,
-          e non ten relaci&#243;n con instituci&#243;ns oficiais ou compañ&#237;as privadas de ning&#250;n tipo. 
+          e non ten relaci&#243;n con instituci&#243;ns oficiais ou compa&#241;&#237;as privadas de ning&#250;n tipo. 
         </p>
       </answer>
     </faq>
@@ -34,7 +34,7 @@
     </faq>
     
     <faq id="support">
-      <question>Est&#225; dispoñible alg&#250;n tipo de soporte?</question>
+      <question>Est&#225; dispo&#241;ible alg&#250;n tipo de soporte?</question>
       <answer>
         <p>
           Non. Pero existe unha <a href="userlist.html">lista de correo / foro de usuarios</a> na que podes

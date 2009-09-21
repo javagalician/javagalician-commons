@@ -6,10 +6,10 @@
 
   <<\241JAVAGALICIAN 1.0 PUBLICADO!>> (20 septiembre 2009). {{{download.html}[DESCARGAR]}}
 
-  JAVAGALICIAN es una extensi\363n para la m\341quina virtual Java (JVM) que añade soporte para las
+  JAVAGALICIAN es una extensi\363n para la m\341quina virtual Java (JVM) que a\361ade soporte para las
   localizaciones gallegas (gl, gl_ES). Brevemente:
   
-    * Añade las localizaciones '<<gl>>' y '<<gl_ES>>' a tu m\341quina virtual Java. Esto te permitir\341 
+    * A\361ade las localizaciones '<<gl>>' y '<<gl_ES>>' a tu m\341quina virtual Java. Esto te permitir\341 
       dar formato a fechas y n\372meros, ordenar palabras y realizar cualquier otra acci\363n dependiente de
       la localizaci\363n en Java usando como idioma el gallego. 
     
@@ -27,7 +27,29 @@
 
 El proyecto JAVAGALICIAN
 
-  Java SE 6 (JDK 1.6.0) añadi\363 a su API una jerarqu\355a de interfaces de provisi\363n de servicios
+* El problema
+
+  Fij\351monos en este fragmento de c\363digo, que deber\355a mostrar una fecha formateada en gallego:
+
+---
+    final Locale glLocale = new Locale("gl","ES");        // language = Galician, country = Spain
+    final String myDateStr = DateFormat.getDateInstance(DateFormat.FULL, glLocale).format(myDate);
+    System.out.println(myDateStr);
+---
+
+   Sin embargo, esto es lo que muestra:
+  
+---
+Monday, September 21, 2009
+---
+
+  \241Eso no es gallego! Y esto ocurre porque, aunque hemos especificado la localizaci\363n 'gl_ES',
+  esta localizaci\363n no existe en la m\341quina virtual est\341ndar... de modo que lo que obtenemos es una salida
+  formateada en ingl\351s.
+  
+* La soluci\363n
+
+  Java SE 6 (JDK 1.6.0) a\361adi\363 a su API una jerarqu\355a de interfaces de provisi\363n de servicios
   (<Service Provider Interfaces>, SPIs) 
   que permiten una f\341cil adici\363n de capacidades de localizaci\363n a la m\341quina virtual Java.
   Estos SPIs extienden a la clase <<<java.util.spi.LocaleServiceProvider>>> y cubren las 
@@ -59,21 +81,27 @@ El proyecto JAVAGALICIAN
   funcione como una soluci\363n completa a la falta de soporte nativo para gallego en la JVM,
   <<convirtiendo a 'gl' y 'gl_ES' en localizaciones completamente soportadas en la m\341quina
   virtual Java>>.
+  
+  Por ejemplo, con JAVAGALICIAN instalado, el mismo fragmento de c\363digo de arriba dar\355a como resultado:
+  
+---
+luns 21 de setembro de 2009
+---
 
 
 Contexto
 
 * La lengua gallega
 
-  El <<gallego>> es una lengua hablada por m\341s de 3 millones de personas en el noroeste de España,
+  El <<gallego>> es una lengua hablada por m\341s de 3 millones de personas en el noroeste de Espa\361a,
   principalmente en la Comunidad Aut\363noma de Galicia. Es una lengua romance originada a partir del
   lat\355n durante la edad media y muy cercanamente emparentada con el portugu\351s, y actualmente
   tiene el estatus de <<cooficial en la Comunidad Aut\363noma de Galicia>> tal y como es reconocido
-  en la Constituci\363n Española, compartiendo este estatus con la lengua castellana (conocida a
-  menudo fuera de España como 'español') y en igualdad de derechos con ella dentro de la Comunidad. 
+  en la Constituci\363n Espa\361ola, compartiendo este estatus con la lengua castellana (conocida a
+  menudo fuera de Espa\361a como 'espa\361ol') y en igualdad de derechos con ella dentro de la Comunidad. 
 
   El gallego es adem\341s el idioma oficial del Gobierno y las instituciones oficiales de esta
-  Comunidad Aut\363noma, es enseñado en todas las escuelas de Galicia y usado para la enseñanza
+  Comunidad Aut\363noma, es ense\361ado en todas las escuelas de Galicia y usado para la ense\361anza
   en una distribuci\363n de asignaturas del 50% con el castellano. Varios canales de televisi\363n
   regionales y estaciones de radio emiten sus contenidos exclusivamente en gallego, y varios
   peri\363dicos usan tambi\351n esta lengua (tanto en forma monoling\374e como biling\374e).

@@ -27,6 +27,28 @@
 
 O proxecto JAVAGALICIAN
 
+* O problema
+
+  Fix\351monos neste fragmento de c\363digo, que deber\355a amosar unha data formateada en galego:
+
+---
+    final Locale glLocale = new Locale("gl","ES");        // language = Galician, country = Spain
+    final String myDateStr = DateFormat.getDateInstance(DateFormat.FULL, glLocale).format(myDate);
+    System.out.println(myDateStr);
+---
+
+   Por\351n, isto \351 o que amosa:
+  
+---
+Monday, September 21, 2009
+---
+
+  Iso non \351 galego! E isto acontece porque, a\355nda que especificamos a localizaci\363n 'gl_ES',
+  esta localizaci\363n non existe na m\341quina virtual est\341ndar... de modo que o que obtemos \351 unha sa\355da
+  formateada en ingl\351s.
+  
+* A soluci\363n
+
   Java SE 6 (JDK 1.6.0) engadiu \341 s\372a API unha xerarqu\355a de interfaces de provisi\363n de servizos
   (<Service Provider Interfaces>, SPIs) 
   que permiten unha sinxela adici\363n de capacidades de localizaci\363n \341 m\341quina virtual Java.
@@ -59,17 +81,23 @@ O proxecto JAVAGALICIAN
   funcione como unha soluci\363n completa \341 falla de soporte nativo para galego na JVM,
   <<convertindo 'gl' e 'gl_ES' en localizaci\363ns completamente soportadas na m\341quina
   virtual Java>>.
+  
+  Por exemplo, con JAVAGALICIAN instalado, o mesmo fragmento de c\363digo de arriba dar\355a como resultado:
+  
+---
+luns 21 de setembro de 2009
+---
 
 
 Contexto
 
 * A lingua galega
 
-  O <<galego>> \351 unha lingua falada por m\341is de 3 mill\363ns de persoas no noroeste de España,
+  O <<galego>> \351 unha lingua falada por m\341is de 3 mill\363ns de persoas no noroeste de Espa\361a,
   principalmente na Comunidade Aut\363noma de Galicia. \311 unha lingua romance orixinada a partir do
   lat\355n durante a idade media e moi pr\363ximamente emparentada co portugu\351s, e actualmente
-  ten o estatus de <<cooficial na Comunidade Aut\363noma de Galicia>> tal e como \351 recoñecido
-  na Constituci\363n Española, compartindo este estatus coa lingua castel\341 e en igualdade 
+  ten o estatus de <<cooficial na Comunidade Aut\363noma de Galicia>> tal e como \351 reco\361ecido
+  na Constituci\363n Espa\361ola, compartindo este estatus coa lingua castel\341 e en igualdade 
   de dereitos con ela dentro da Comunidade. 
 
   O galego \351 ademais o idioma oficial do Goberno e as instituci\363ns oficiais desta Comunidade
