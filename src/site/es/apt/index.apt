@@ -4,7 +4,7 @@
 
   {{{../index.html}<<[IN ENGLISH]>>}} {{{../gl/index.html}<<[EN GALEGO]>>}} 
 
-  <<\241JAVAGALICIAN 1.1 PUBLICADO!>> (21 junio 2010). {{{download.html}[DESCARGAR]}}
+  <<\241JAVAGALICIAN 1.1 PUBLICADO!>> (21 junio 2010). {{{./download.html}[DESCARGAR]}}
 
   JAVAGALICIAN es una extensi\363n para la m\341quina virtual Java (JVM) que a\361ade soporte para las
   localizaciones gallegas (gl, gl_ES). Brevemente:
@@ -18,7 +18,7 @@
     * Es un proyecto de c\363digo abierto y distribuido bajo la licencia <<Apache License 2.0>>, y es 
       absolutamente gratis. Simplemente desc\341rgalo y \372salo.
     
-    * Es <<muy f\341cil de instalar.>> \311chale un vistazo a las {{{install.html}instrucciones de instalaci\363n}}.
+    * Es <<muy f\341cil de instalar.>> \311chale un vistazo a las {{{./install.html}instrucciones de instalaci\363n}}.
       
     * Es <<transparente para los desarrolladores>>. Para usar estas localizaciones en una aplicaci\363n no se necesita
       realizar ninguna acci\363n especial, ni usar objetos, clases o dependencias especiales: simplemente

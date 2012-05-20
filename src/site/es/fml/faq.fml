@@ -34,11 +34,10 @@
     </faq>
     
     <faq id="support">
-      <question>¿Est&#225; disponible alg&#250;n tipo de soporte?</question>
+      <question>¿Est&#225; disponible alg&#250;n tipo de soporte comercial?</question>
       <answer>
         <p>
-          No. Pero existe una <a href="userlist.html">lista de correo / foro de usuarios</a> en la que puedes
-          hacer tus preguntas o responder otras de otros usuarios.
+          No, no hay soporte comercial.
         </p>
       </answer>
     </faq>

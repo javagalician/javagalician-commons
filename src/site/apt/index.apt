@@ -2,9 +2,9 @@
   Main
   -------
 
-  {{{gl/index.html}<<[EN GALEGO]>>}} {{{es/index.html}<<[EN CASTELLANO]>>}}
+  {{{./gl/index.html}<<[EN GALEGO]>>}} {{{./es/index.html}<<[EN CASTELLANO]>>}}
    
-  <<JAVAGALICIAN 1.1 RELEASED!>> (June 21st, 2010). {{{download.html}[DOWNLOAD]}}
+  <<JAVAGALICIAN 1.1 RELEASED!>> (June 21st, 2010). {{{./download.html}[DOWNLOAD]}}
 
   JAVAGALICIAN is an extension for the Java Virtual Machine which adds support for the
   Galician locales (gl, gl_ES). Some quick facts:
@@ -18,7 +18,7 @@
     * It is open source and distributed under the <<Apache License 2.0>>, and it is 
       absolutely free. Just download it and use it.
     
-    * It is <<very easy to install.>> Check the {{{install.html}installation instructions}}.
+    * It is <<very easy to install.>> Check the {{{./install.html}installation instructions}}.
       
     * It is <<transparent for developers>>. No special actions need to be performed in order to 
       use it in applications, no special objects, classes or dependencies: just use the Galician 

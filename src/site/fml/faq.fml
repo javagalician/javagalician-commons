@@ -35,11 +35,10 @@
     </faq>
     
     <faq id="support">
-      <question>Is there any support available?</question>
+      <question>Is there any commercial support available?</question>
       <answer>
         <p>
-          No, there is not. But there is a <a href="userlist.html">user list/forum</a> in which you can ask your questions and
-          answer questions from other users.
+          No, there is not.
         </p>
       </answer>
     </faq>
