@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="javagalician.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="333.27655"
+     inkscape:cy="910.90326"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="716"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#00adef;fill-opacity:1;stroke:none"
+       d="M 131.0625 72.375 L 115.75 72.375 C 114.16044 72.375 112.65526 72.670772 111.28125 73.25 C 109.90724 73.829228 108.66223 74.68152 107.625 75.71875 C 106.58777 76.75598 105.76673 78.000993 105.1875 79.375 C 104.60827 80.749007 104.28125 82.254192 104.28125 83.84375 L 104.28125 101.5625 L 201.59375 185.21875 L 219.25 185.21875 C 220.83956 185.21875 222.34474 184.89173 223.71875 184.3125 C 225.09276 183.73327 226.33777 182.91223 227.375 181.875 C 228.41223 180.83777 229.23327 179.59276 229.8125 178.21875 C 230.39173 176.84474 230.71875 175.33956 230.71875 173.75 L 230.71875 158.09375 L 131.0625 72.375 z "
+       id="path3809"
+       inkscape:export-filename="C:\Users\daniel\workspace37\javagalician-commons\src\artwork\javagalician_logo_full_small.png"
+       inkscape:export-xdpi="79.055725"
+       inkscape:export-ydpi="79.055725" />
+    <text
+       xml:space="preserve"
+       style="font-size:63.98519516px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Gabriola;-inkscape-font-specification:Gabriola"
+       x="115.63821"
+       y="149.33784"
+       id="text2985"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\daniel\workspace37\javagalician-commons\src\artwork\javagalician_logo_full_small.png"
+       inkscape:export-xdpi="79.055725"
+       inkscape:export-ydpi="79.055725"><tspan
+         sodipodi:role="line"
+         id="tspan2987"
+         x="115.63821"
+         y="149.33784"
+         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Gabriola;-inkscape-font-specification:Gabriola">gl_ES</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-opacity:1"
+       d="m 116.11981,72.362187 103.47466,0 c 6.35823,0 11.47696,5.11872 11.47696,11.47695 l 0,89.903233 c 0,6.35824 -5.11873,11.47696 -11.47696,11.47696 l -103.47466,0 c -6.35823,0 -11.47696,-5.11872 -11.47696,-11.47696 l 0,-89.903233 c 0,-6.35823 5.11873,-11.47695 11.47696,-11.47695 z"
+       id="rect2989-1"
+       inkscape:export-xdpi="79.055725"
+       inkscape:export-ydpi="79.055725"
+       inkscape:export-filename="C:\Users\daniel\workspace37\javagalician-commons\src\artwork\javagalician_logo_full_small.png" />
+    <text
+       xml:space="preserve"
+       style="font-size:100.95318604px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="253.81058"
+       y="147.02051"
+       id="text3825"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\daniel\workspace37\javagalician-commons\src\artwork\javagalician_logo_full_small.png"
+       inkscape:export-xdpi="79.055725"
+       inkscape:export-ydpi="79.055725"><tspan
+         sodipodi:role="line"
+         id="tspan3827"
+         x="253.81058"
+         y="147.02051"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Gabriola;-inkscape-font-specification:Gabriola">javaGalician</tspan></text>
+  </g>
+</svg>
